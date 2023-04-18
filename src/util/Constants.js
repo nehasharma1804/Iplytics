@@ -1,0 +1,67 @@
+export const DayCountInAMonth = [ /* Constant to declare no of days for each month */
+  {
+    days: 30,
+    months: ["Apr", "Jun", "Sep", "Nov"],
+  },
+  {
+    days: 31,
+    months: ["Jan", "Mar", "May", "Jul", "Aug", "Oct", "Dec"],
+  },
+  {
+    days: 28,
+    months: ["Feb"],
+  },
+];
+
+export const Months = [ /* Constant to declare total number of months in a year*/
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
+export const testingData = [  /* Constant to declare testtign data */
+  {
+    month: "Jan",
+    average: 5,
+    temperature: [
+      { date: 1, temp: 15 },
+      { date: 2, temp: 16 },
+      { date: 3, temp: 19 },
+      { date: 4, temp: 20 },
+      { date: 5, temp: 18 },
+      { date: 6, temp: 25 },
+      { date: 7, temp: 22 },
+      { date: 8, temp: 22 },
+      { date: 9, temp: 5 },
+      { date: 10, temp: 6 },
+      { date: 11, temp: 9 },
+      { date: 12, temp: 20 },
+      { date: 13, temp: 18 },
+      { date: 14, temp: 25 },
+      { date: 15, temp: 22 },
+      { date: 16, temp: 22 },
+      { date: 17, temp: 5 },
+      { date: 18, temp: 6 },
+      { date: 19, temp: 9 },
+      { date: 20, temp: 20 },
+      { date: 21, temp: 18 },
+      { date: 22, temp: 25 },
+      { date: 23, temp: 22 },
+      { date: 24, temp: 22 },
+      { date: 25, temp: 5 },
+      { date: 26, temp: 9 },
+      { date: 27, temp: 20 },
+      { date: 28, temp: 18 },
+      { date: 29, temp: 25 },
+      { date: 30, temp: 22 },
+    ],
+  },
+];
